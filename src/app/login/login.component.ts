@@ -33,7 +33,7 @@ export class LoginComponent implements OnInit {
   loginUser(data : any){
     this.userService.login(data).subscribe( (response: User) => {
       
-      console.log(response.accessToken);
+      console.log(response.email);
 
 
     });

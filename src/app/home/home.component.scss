@@ -1,0 +1,56 @@
+.container {
+  height: 600px;
+  background-image: url("../../assets/layer.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffe400;
+}
+
+.weather {
+  padding: 0 0.5rem 0 0.5rem;
+  text-align: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.weather-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.weather-components {
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 100px;
+  justify-content: center;
+}
+
+.card {
+  height: 400px;
+  padding: 20px 20px 0 20px;
+}
+
+.weather-components img {
+  height: 350px;
+  width: 300px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  color: #ffe400;
+  background-color: #272727;
+}
+
+footer div {
+  padding: 40px;
+}

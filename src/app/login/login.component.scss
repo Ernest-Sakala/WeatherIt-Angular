@@ -1,0 +1,48 @@
+div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+.pass {
+  height: 15px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.btn {
+  color: #14a76c;
+  background-color: #ffe400;
+  height: 30px;
+  border: none;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 20px;
+  width: 100px;
+  cursor: pointer;
+}
+
+form {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  height: 25rem;
+  align-items: center;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 8px 8px 50px #000;
+  background-color: #272727;
+  justify-content: center;
+}

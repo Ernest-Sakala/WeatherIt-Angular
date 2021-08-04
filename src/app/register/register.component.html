@@ -1,8 +1,20 @@
+<section>
+
 <div>
 
 
+  <form class = "file-form">
 
-    <form #register = "ngForm" (ngSubmit) = "registerUser(register.value)" >
+    <img [src] = "image" class = "image">
+
+    <label class = "file-label">Choose Profile Picture</label>
+
+     <input type ="file" (change)="handleFileInput($event)">
+
+  </form>
+
+
+  <form class = "register-form" #register = "ngForm" (ngSubmit) = "registerUser(register.value)" >
 
 
         <label> Type your Name</label>
@@ -29,3 +41,4 @@
     
 </div>
 
+</section>
